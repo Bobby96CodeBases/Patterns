@@ -1,0 +1,18 @@
+    // 16Q
+    //  A
+    //  B B
+    //  C C C
+    //  D D D D
+#include<stdio.h>
+int main(){
+    int n;
+    printf("ENTER N:");
+    scanf("%d",&n);
+    char c='A';
+    for(int i=0;i<n;i++,c++){
+        for(int j=0;j<=i;j++){
+            printf("%c ",c);
+        }
+        printf("\n");
+    }
+}
